@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>z02作业</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/z02style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse" id="nav-martop" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span>Brand</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- banner轮播 -->
+  <div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/banner.jpg" alt="First slide">
+      </div>
+      <div class="item">
+        <img src="images/banner.jpg" alt="Second slide">
+      </div>
+      <div class="item">
+        <img src="images/banner.jpg" alt="Third slide">
+      </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
+  </div>
+  <!-- 主体内容 -->
+  <div id="main-warp">
+    <!-- 文本内容 -->
+    <div class="row">
+      <div class="col-md-4 col-xs-4">
+        <h3>Content area1 <small>The First</small></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+      <div class="col-md-4 col-xs-4">
+        <h3>Content area2 <small>The Second</small></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+      <div class="col-md-4 col-xs-4">
+        <h3>Content area3 <small>The Three</small></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+    </div>
+    <div>
+      <h3>Report Table <small>From Detail</small></h3>
+      <table class="table table-striped">
+        <tr>
+          <th>#</th>
+          <th>first</th>
+          <th>second</th>
+          <th>third</th>
+          <th>four</th>
+          <th>fifth</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>penatibus et magnis</td>
+          <td>what</td>
+          <td>messages</td>
+          <td>56</td>
+          <td>
+            <button class="btn btn-success">提交</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>penatibus et</td>
+          <td>you</td>
+          <td>information</td>
+          <td>44</td>
+          <td>
+            <button class="btn btn-success">提交</button>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>nulla non</td>
+          <td>test</td>
+          <td>testing</td>
+          <td>32</td>
+          <td>
+            <button class="btn btn-success">提交</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="row">
+      <div class="col-md-6"><img src="images/pic.jpg" class="img-responsive" alt="pic"></div>
+      <div class="col-md-6">
+        <p class="h2">Cum sociis natoque penatibus et magnis dis parturient montes</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <div class="row">
+          <div class="col-md-6 col-xs-6">
+            <ul class="list-unstyled">
+              <li>Maecenas sed diam eget risus</li>
+              <li>Maecenas sed diam eget risus</li>
+              <li>Maecenas sed diam eget risus</li>
+              <li>Maecenas sed diam eget risus</li>
+              <li>Maecenas sed diam eget risus</li>
+              <li>Maecenas sed diam eget risus</li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-xs-6"><img src="images/1.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <h3>Images Show <small>Images</small></h3>
+        <div class="row">
+          <div class="col-md-4 col-xs-4"><img src="images/2.jpg" class="img-rounded"></div>
+          <div class="col-md-4 col-xs-4"><img src="images/3.jpg" class="img-rounded"></div>
+          <div class="col-md-4 col-xs-4"><img src="images/4.jpg" class="img-rounded"></div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <div class="col-md-5">
+        <h3>User Login <small>From</small></h3>
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> blue
+                </label>
+                <label>
+                  <input type="checkbox"> red
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-info">Sign in</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <address>
+      <strong>网站地图</strong>
+      <a href="#nav-martop" class="gotop">返回顶部</a>
+      <br> copyright @<a href="http://www.xxx.com"> www.xxx.com</a>
+    </address>
+  </div>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+#nav-martop{
+	margin-bottom: 0px;
+}
+#main-warp{
+	width: 85%;
+	margin: 0 auto;
+}
+#footer{
+	height: 60px;
+	background-color: #101010;
+	color: #fff;
+}
+.gotop{
+	float: right;
+}
